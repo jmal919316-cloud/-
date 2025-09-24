@@ -12,7 +12,7 @@
    ```
    npm run dev
    ```
-4. افتح: http://localhost:5000
+4. افتح: https://souk-alfalah-backend.onrender.com
 
 ## Endpoints أساسية
 - `POST /api/auth/register` — تسجيل
