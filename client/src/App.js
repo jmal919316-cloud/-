@@ -1,7 +1,8 @@
+// src/App.js
 import React, { useEffect, useState } from 'react';
 
-// نحدد API: من .env أو localhost للتجارب
-const API = process.env.REACT_APP_API_URL || "http://localhost:5000";
+// ثبّت الرابط مباشرة (بدون .env)
+const API = "https://souk-alfalah-backend.onrender.com";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -106,4 +107,3 @@ function App() {
 }
 
 export default App;
-
